@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import "../styles/global.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -35,6 +36,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
+        <button class="button is-primary">Primary</button>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
