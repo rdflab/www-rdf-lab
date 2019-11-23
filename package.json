@@ -36,6 +36,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rdflab/www-rdflab"
-  }
+    "url": "git+https://github.com/rdflab/www-rdflab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rdflab/www-rdflab/issues"
+  },
+  "homepage": "https://github.com/rdflab/www-rdflab#readme",
+  "main": "gatsby-browser.js"
 }
