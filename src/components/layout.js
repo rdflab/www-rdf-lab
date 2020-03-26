@@ -1,5 +1,5 @@
 /**
- * Layout component that queries for data
+ * CrumbLayout component that queries for data
  * with Gatsby's useStaticQuery component
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
@@ -9,11 +9,20 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
-import "./layout.css"
-import "../styles/global.scss"
+//import "../assets/css/global.scss"
+import "../assets/css/global.scss"
 
-const Layout = ({ children }) => {
+import Header from "./header/header"
+import Footer from "./footer/footer"
+import SEO from "./seo"
+
+const Layout = ({
+  title,
+  children,
+  crumbs,
+  headerComponent,
+  menuComponent,
+}) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -26,29 +35,31 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
-        <main>{children}</main>
-        <button class="button is-primary">Primary</button>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
+      {title !== "" && <SEO title={title} />}
+
+      <Header
+        title={title}
+        content={headerComponent}
+        menuContent={menuComponent}
+      />
+
+      <main>{children}</main>
+
+      <Footer siteTitle={data.site.siteMetadata.title}></Footer>
     </>
   )
 }
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+}
+
+Layout.defaultProps = {
+  crumbs: [],
+  selectedTab: "",
+  title: "",
+  headerComponent: null,
+  menuComponent: null,
 }
 
 export default Layout

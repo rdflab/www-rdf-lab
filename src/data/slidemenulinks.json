@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Research Labs",
+    "link": "/research-areas/labs"
+  },
+  {
+    "name": "Research Areas",
+    "link": "/research-areas"
+  },
+  {
+    "name": "Faculty and Staff",
+    "link": "/research-areas/faculty-and-staff"
+  },
+  {
+    "name": "Publications",
+    "link": "/research-areas/publications"
+  },
+  {
+    "name": "News",
+    "link": "/news"
+  },
+  {
+    "name": "Events",
+    "link": "/events"
+  }
+]

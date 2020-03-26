@@ -1,49 +1,73 @@
 {
-  "name": "rdf-lab",
+  "name": "icg",
   "private": true,
-  "description": "RDF Lab website",
+  "description": "Institute for Cancer Genetics website.",
   "version": "0.1.0",
-  "author": "Antony B Holmes <abh2138@cumc.columbia.edu>",
+  "author": "Antony B Holmes <antony@antonyholmes.com>",
   "dependencies": {
-    "bulma": "^0.8.0",
-    "gatsby": "^2.17.11",
-    "gatsby-image": "^2.2.31",
-    "gatsby-plugin-manifest": "^2.2.27",
-    "gatsby-plugin-offline": "^3.0.19",
-    "gatsby-plugin-react-helmet": "^3.1.14",
-    "gatsby-plugin-sass": "^2.1.23",
-    "gatsby-plugin-sharp": "^2.2.37",
-    "gatsby-source-filesystem": "^2.1.36",
-    "gatsby-transformer-sharp": "^2.3.3",
-    "node-sass": "^4.13.0",
+    "autoprefixer": "^9.7.4",
+    "axios": "^0.19.2",
+    "gatsby": "^2.19.28",
+    "gatsby-background-image": "^0.10.2",
+    "gatsby-image": "^2.2.42",
+    "gatsby-plugin-manifest": "^2.2.42",
+    "gatsby-plugin-offline": "^3.0.35",
+    "gatsby-plugin-postcss": "^2.1.20",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-purgecss": "^4.0.1",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-s3": "^0.3.3",
+    "gatsby-plugin-sass": "^2.1.29",
+    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-plugin-sitemap": "^2.2.27",
+    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-transformer-json": "^2.2.26",
+    "gatsby-transformer-remark": "^2.6.53",
+    "gatsby-transformer-sharp": "^2.3.16",
+    "node-sass": "^4.13.1",
+    "postcss-import": "^12.0.1",
     "prop-types": "^15.7.2",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-helmet": "^5.2.1"
+    "react": "^16.13.0",
+    "react-animate-height": "^2.0.20",
+    "react-day-picker": "^7.4.0",
+    "react-dom": "^16.13.0",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.9.0",
+    "read-markdown": "^1.0.2",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "tailwindcss": "^1.2.0"
   },
   "keywords": [
-    "RDF Lab"
+    "ICG",
+    "Columbia",
+    "Cancer",
+    "Genetics"
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "build": "npm build",
+    "clean": "rm -rf node_modules",
+    "reinstall": "npm run clean && npm install",
+    "rebuild": "npm run clean && npm install && npm run build",
+    "deploy": "gatsby-plugin-s3 deploy --yes",
+    "bd": "gatsby build && npm run deploy",
+    "index": "node src/scripts/indexpub.js",
+    "indexsite": "node src/scripts/indexsite.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rdflab/www-rdflab.git"
+    "url": "https://github.com/rdflab/www-icg.git"
   },
   "bugs": {
-    "url": "https://github.com/rdflab/www-rdflab/issues"
-  },
-  "homepage": "https://github.com/rdflab/www-rdflab#readme",
-  "main": "gatsby-browser.js"
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
 }
