@@ -8,9 +8,10 @@ import SlideMenu from "../slidemenu/slidemenu"
 import Container from "../container"
 import HideSmall from "../hidesmall"
 import Column from "../column"
+import TextLink from "../textlink"
 
 const Header = ({ title, content, menuContent }) => (
-  <>
+  <div className="fixed w-full z-50 bg-white opacity-97 py-2 border-b border-solid border-gray-200">
     <HideSmall show={true}>
       <nav
         aria-label="Navigation"
@@ -24,21 +25,21 @@ const Header = ({ title, content, menuContent }) => (
     </HideSmall>
 
     <HideSmall>
-      <div className="p-3">
+      <div>
         <Container>
           <Column isVCentered={true} className="justify-between">
-            <Link to="/" className="mr-8">
-              <ColumbiaICGImage style={{ width: `400px` }} />
-            </Link>
+            <TextLink to="/" className="text-lg mr-8 uppercase tracking-widest">
+              <span className="font-bold">Dalla-Favera</span> Lab
+            </TextLink>
 
             {content !== null && content}
           </Column>
         </Container>
       </div>
 
-      <nav aria-label="Navigation" className="bg-blue-columbia-80 py-2">
+      <nav aria-label="Navigation" className="mt-2">
         <Container>
-          <Column isVCentered={true} className="justify-between">
+          <Column isVCentered={true} className="justify-center">
             <HeaderLinks />
 
             {menuContent !== null && menuContent}
@@ -46,7 +47,7 @@ const Header = ({ title, content, menuContent }) => (
         </Container>
       </nav>
     </HideSmall>
-  </>
+  </div>
 )
 
 Header.propTypes = {

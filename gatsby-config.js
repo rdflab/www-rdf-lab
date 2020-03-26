@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Institute for Cancer Genetics`,
-    description: `Institute for Cancer Genetics website`,
+    title: `Riccardo Dalla-Favera Lab`,
+    description: `Riccardo Dalla-Favera Lab website`,
     author: `Antony B Holmes <antony@antonyholmes.com>`,
     siteUrl: `https://icg.cpmc.columbia.edu`,
   },
@@ -19,13 +19,6 @@ module.exports = {
       options: {
         path: `${__dirname}/src/data/news`,
         name: `news`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/data/events`,
-        name: `events`,
       },
     },
     {
@@ -54,8 +47,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Institute for Cancer Genetics`,
-        short_name: `ICG`,
+        name: `Riccardo Dalla-Favera Lab`,
+        short_name: `RDF`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -150,7 +143,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: "www-icg",
+        bucketName: "www-rdf-lab",
         acl: null,
       },
     },

@@ -9,7 +9,6 @@ const PEOPLE_TYPES = [
 ]
 
 const labTemplate = path.resolve(`src/templates/labtemplate.js`)
-const labsTemplate = path.resolve(`src/templates/labstemplate.js`)
 const peopleTemplate = path.resolve(`src/templates/peopletemplate.js`)
 const labOverviewTemplate = path.resolve(`src/templates/laboverviewtemplate.js`)
 const personTemplate = path.resolve(`src/templates/persontemplate.js`)
@@ -95,22 +94,6 @@ const createSuffixTree = (root, text, item) => {
     }
   }
 }
-
-// const writeJson = (file, data) => {
-//   fs.writeFileSync(file, JSON.stringify(data))
-// }
-
-// const indexPublications = publications => {
-//   pubIndex = [{}, []]
-
-//   for (let i = 0; i < publications.length; ++i) {
-//     const publication = publications[i]
-
-//     createSuffixTree(pubIndex, publication.title, i)
-//   }
-
-//   return pubIndex
-// }
 
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
@@ -282,48 +265,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           }
         }
       }
-
-      events: allMarkdownRemark(
-        sort: { fields: frontmatter___start, order: ASC }
-        filter: { fileAbsolutePath: { regex: "/events/" } }
-      ) {
-        edges {
-          node {
-            html
-            frontmatter {
-              title
-              location
-              start
-              end
-              urls
-              tags
-            }
-            excerpt(format: HTML)
-          }
-        }
-      }
     }
   `)
-
-  // Handle errors
-  // if (result.errors) {
-  //   reporter.panicOnBuild(`Error while running GraphQL query.`)
-  //   return
-  // }
-
-  // result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-  //   createPage({
-  //     path: node.frontmatter.path,
-  //     component: facultyTemplate,
-  //     context: {}, // additional data can be passed via context
-  //   })
-  // })
 
   const allPeople = []
   const allPublications = []
   const allNews = []
   const allLabGroups = []
-  const allCalEvents = []
   const allResearchAreas = []
   const researchAreasMap = {}
   const cvMap = {}
@@ -406,15 +354,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     }
   }
 
-  // Add groups to person
-  // for (let person of allPeople) {
-  //   if (person.frontmatter.id in personGroups) {
-  //     person.groups = personGroups[person.frontmatter.id]
-  //   } else {
-  //     person.groups = []
-  //   }
-  // }
-
   result.data.publications.edges.forEach(({ node }) => {
     const publication = node
 
@@ -450,15 +389,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     item.year = parseInt(item.frontmatter.year)
 
     allNews.push(item)
-  })
-
-  result.data.events.edges.forEach(({ node }) => {
-    const calEvent = node
-
-    //calEvent.start = new Date(calEvent.frontmatter.start)
-    //calEvent.end = new Date(calEvent.frontmatter.end)
-
-    allCalEvents.push(calEvent)
   })
 
   const markdownMap = {}
@@ -557,22 +487,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     searchData["data"]["News"][item.frontmatter.title] = {
       name: `View`,
       to: item.frontmatter.path,
-    }
-  }
-
-  // Events
-
-  searchData["sections"].push("Events")
-  searchData["data"]["Events"] = {}
-
-  for (let calEvent of allCalEvents) {
-    const path = `/events/${
-      calEvent.frontmatter.start.split("T")[0]
-    }-${calEvent.frontmatter.title.toLowerCase().replace(" ", "-")}`
-
-    searchData["data"]["Events"][calEvent.frontmatter.title] = {
-      name: `View`,
-      to: path,
     }
   }
 
@@ -775,44 +689,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     })
   }
 
-  //
-  // Events pages
-  //
-
-  createPage({
-    path: "/events",
-    component: calEventsTemplate,
-    context: {
-      allCalEvents: allCalEvents,
-    },
-  })
-
-  for (let calEvent of allCalEvents) {
-    const path = `/events/${
-      calEvent.frontmatter.start.split("T")[0]
-    }-${calEvent.frontmatter.title.toLowerCase().replace(" ", "-")}`
-
-    createPage({
-      path: path,
-      component: calEventTemplate,
-      context: {
-        calEvent: calEvent,
-        allCalEvents: allCalEvents,
-      },
-    })
-  }
-
-  // Labs page
-
-  createPage({
-    path: "/research-areas/labs",
-    component: labsTemplate,
-    context: {
-      allGroups: allLabGroups,
-      peopleMap: peopleMap,
-    },
-  })
-
   // Faculty and Staff page
 
   createPage({
@@ -912,35 +788,4 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   for (let i = 0; i < siteData.links.length; ++i) {
     createSuffixTree(siteData.tree, siteData.links[i][0], i)
   }
-
-  // const words = siteData.links[i][0].toLowerCase()
-
-  // for (let j = 0; j < words.length; ++j) {
-  //   const suffix = words.substring(j)
-
-  //   let node = siteData.tree
-
-  //   for (let k = 0; k < suffix.length; ++k) {
-  //     const c = suffix.charAt(k)
-
-  //     if (!(c in node[0])) {
-  //       node[0][c] = [{}, []]
-  //     }
-
-  //     const nextNode = node[0][c]
-
-  //     // Suffix must be at least of length two to
-  //     // store results
-  //     if (k > 0) {
-  //       if (!nextNode[1].includes(i)) {
-  //         nextNode[1].push(i)
-  //       }
-  //     }
-
-  //     node = nextNode
-  //   }
-  // }
-
-  //let data = JSON.stringify(siteData)
-  //fs.writeFileSync("static/site.json", data)
 }

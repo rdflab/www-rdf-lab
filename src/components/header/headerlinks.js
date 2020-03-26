@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import flattenEdges from "../../utils/flattenedges"
 import HeaderLink from "./headerlink"
+import TextLink from "../textlink"
 
 const HeaderLinks = () => {
   const data = useStaticQuery(graphql`
@@ -23,13 +24,14 @@ const HeaderLinks = () => {
     <div>
       {links.map((link, index) => {
         return (
-          <HeaderLink
+          <TextLink
             key={index}
             aria-label={`Goto ${link.name}`}
             to={link.link}
+            className="mr-8 px-4 py-2"
           >
             {link.name}
-          </HeaderLink>
+          </TextLink>
         )
       })}
     </div>

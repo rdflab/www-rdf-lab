@@ -1,0 +1,24 @@
+success open and validate gatsby-configs - 0.258s
+success load plugins - 1.899s
+success onPreInit - 0.003s
+success initialize cache - 0.033s
+success copy gatsby files - 0.189s
+success onPreBootstrap - 2.034s
+success createSchemaCustomization - 0.013s
+success source and transform nodes - 1.003s
+warn Multiple node fields resolve to the same GraphQL field
+success building schema - 0.732s
+success createPages - 1.241s
+success createPagesStatefully - 1.160s
+success onPreExtractQueries - 0.002s
+success update schema - 1.597s
+success extract queries from components - 1.041s
+success write out requires - 0.150s
+success write out redirect data - 0.061s
+success Build manifest and related icons - 0.222s
+success onPostBootstrap - 0.251s
+⠀
+info bootstrap finished - 16.053 s
+⠀
+success run queries - 4.588s - 168/168 36.62/s
+success Generating image thumbnails - 41.814s - 56/56 1.34/s
