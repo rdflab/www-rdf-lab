@@ -46,9 +46,7 @@ const IndexPage = () => (
     title="Home"
     headerComponent={<SiteSearch />}
   >
-    <TestTubesSection>
-     
-    </TestTubesSection>
+    <TestTubesSection></TestTubesSection>
 
     <HomeSection
       title="Expertise"

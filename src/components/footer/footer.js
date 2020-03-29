@@ -6,23 +6,23 @@ import Column from "../column"
 
 const Footer = ({ siteTitle }) => {
   return (
-    <footer className="text-white text-sm mt-8 py-8 bg-blue-columbia-80">
+    <footer className="text-white text-sm mt-8 py-8 bg-gray-600">
       <Container>
-        <Column isVCentered={true}>
-          <Column w="6" className="mb-8 justify-center md:justify-start">
-            <FooterLinks />
-          </Column>
-          <Column w="6" className="mb-8 justify-center md:justify-end">
-            <div>
+        <div className="flex items-center justify-between">
+          <div className="flex items-center">
+            <div className="flex mr-8">
               &copy; {new Date().getFullYear()} {siteTitle}
             </div>
-          </Column>
-        </Column>
+            <div className="flex">
+              <FooterLinks />
+            </div>
+          </div>
 
-        <div className="row items-center justify-center md:justify-start">
-          <a href="https://cumc.columbia.edu">
-            <HICCCImage style={{ width: "400px" }} />
-          </a>
+          <div className="flex items-center">
+            <a href="https://cumc.columbia.edu">
+              <HICCCImage style={{ width: "400px" }} />
+            </a>
+          </div>
         </div>
       </Container>
     </footer>

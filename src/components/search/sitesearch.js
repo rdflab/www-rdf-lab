@@ -245,14 +245,14 @@ const SiteSearch = ({ className, placeholder, maxResults }) => {
   }
 
   return (
-    <HideSmall size="md" className="relative w-1/2">
+    <HideSmall className="relative w-full">
       <SiteSearchBar
         handleInputChange={handleInputChange}
         text={query}
         placeholder={placeholder}
         border={false}
         selected={showMenu}
-        className="ml-auto w-3/4"
+        className="ml-auto"
       />
 
       <SiteSearchMenuPane

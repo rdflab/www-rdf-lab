@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="98.982475mm"
+   height="20mm"
+   viewBox="0 0 98.982475 20"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="rdf.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="327.38149"
+     inkscape:cy="-18.235183"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g856"
+     showgrid="false"
+     showguides="true"
+     fit-margin-top="1"
+     fit-margin-left="1"
+     fit-margin-right="1"
+     fit-margin-bottom="1"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-44.924107,-50.647316)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot815"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Libre Baskerville';-inkscape-font-specification:'Libre Baskerville';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,39.662098,-10.23115)"><flowRegion
+         id="flowRegion817"><rect
+           id="rect819"
+           width="585.88849"
+           height="135.36044"
+           x="105.05586"
+           y="246.71742" /></flowRegion><flowPara
+         id="flowPara821"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Avenir;-inkscape-font-specification:'Avenir Heavy'">dalla-favera lab</flowPara></flowRoot>    <g
+       id="g856">
+      <circle
+         r="9"
+         cy="60.647316"
+         cx="54.924107"
+         id="path849"
+         style="opacity:1;fill:#00aa88;fill-opacity:1;stroke:none;stroke-width:0.176;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00392157;paint-order:stroke markers fill" />
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,23.005663,-10.48515)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Libre Baskerville';-inkscape-font-specification:'Libre Baskerville';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot815-9"
+         xml:space="preserve"><flowRegion
+           style="fill:#ffffff"
+           id="flowRegion817-3"><rect
+             style="fill:#ffffff"
+             y="246.71742"
+             x="105.05586"
+             height="135.36044"
+             width="585.88849"
+             id="rect819-7" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Avenir;-inkscape-font-specification:Avenir;fill:#ffffff"
+           id="flowPara821-4">D</flowPara></flowRoot>    </g>
+  </g>
+</svg>

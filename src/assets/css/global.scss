@@ -232,7 +232,7 @@ a:hover {
 
 
 .header-link {
-  @apply link text-white opacity-50 mr-6 trans-ani; // border-b-2 border-solid border-transparent;
+  @apply border-b-2 border-solid border-transparent py-2 mr-6 trans-ani; // border-b-2 border-solid border-transparent;
 }
 
 .header-link:hover {
@@ -240,7 +240,7 @@ a:hover {
 }
 
 .header-link-active {
-  @apply opacity-100; //blue border-b-2 border-solid border-blue-500;
+  @apply border-b-2 border-solid border-green-400; //blue border-b-2 border-solid border-blue-500;
 }
 
 .header-link-active:hover {

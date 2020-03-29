@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Riccardo Dalla-Favera Lab`,
+    title: `Dalla-Favera Lab`,
     description: `Riccardo Dalla-Favera Lab website`,
     author: `Antony B Holmes <antony@antonyholmes.com>`,
     siteUrl: `https://icg.cpmc.columbia.edu`,
@@ -68,7 +68,7 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /assets/,
+          include: "/assets/svg/",
         },
       },
     },

@@ -2,13 +2,13 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import HeaderLinks from "./headerlinks"
-import ColumbiaICGImage from "../images/columbiaicgimage"
 import ColumbiaICGWhiteImage from "../images/columbiaicgwhiteimage"
 import SlideMenu from "../slidemenu/slidemenu"
 import Container from "../container"
 import HideSmall from "../hidesmall"
 import Column from "../column"
 import TextLink from "../textlink"
+import LogoImage from "../logoimage"
 
 const Header = ({ title, content, menuContent }) => (
   <div className="fixed w-full z-50 bg-white opacity-97 py-2 border-b border-solid border-gray-200">
@@ -25,26 +25,17 @@ const Header = ({ title, content, menuContent }) => (
     </HideSmall>
 
     <HideSmall>
-      <div>
-        <Container>
-          <Column isVCentered={true} className="justify-between">
-            <TextLink to="/" className="text-lg mr-8 uppercase tracking-widest">
-              <span className="font-bold">Dalla-Favera</span> Lab
-            </TextLink>
-
-            {content !== null && content}
-          </Column>
-        </Container>
-      </div>
-
-      <nav aria-label="Navigation" className="mt-2">
-        <Container>
-          <Column isVCentered={true} className="justify-center">
-            <HeaderLinks />
-
-            {menuContent !== null && menuContent}
-          </Column>
-        </Container>
+      <nav
+        aria-label="Navigation"
+        className="flex items-center justify-between py-2 px-4"
+      >
+        <div className="flex">
+          <Link to="/">
+            <LogoImage style={{ width: "200px" }} className="mr-8" />
+          </Link>
+          <HeaderLinks />
+        </div>
+        <div className="flex flex-grow">{content !== null && content}</div>
       </nav>
     </HideSmall>
   </div>
