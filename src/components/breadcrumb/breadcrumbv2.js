@@ -26,10 +26,8 @@ const Breadcrumb = ({ crumbs }) => {
   }
 
   return (
-    <div className="bg-gray-200 p-0">
-      <Container>
-        <div className="row items-center py-2">{ret}</div>
-      </Container>
+    <div className="mb-4">
+        <div className="row items-center">{ret}</div>
     </div>
   )
 

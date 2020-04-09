@@ -9,9 +9,25 @@ import HideSmall from "../hidesmall"
 import Column from "../column"
 import TextLink from "../textlink"
 import LogoImage from "../logoimage"
+import logo from "../../assets/svg/rdf-logo.svg"
+
+import styled from "styled-components"
+import background from "../../assets/images/benchwork.jpg"
+
+
+const Nav = styled.nav`
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+`
 
 const Header = ({ title, content, menuContent }) => (
-  <div className="fixed w-full z-50 bg-white opacity-97 py-2 border-b border-solid border-gray-200">
+  <div>
     <HideSmall show={true}>
       <nav
         aria-label="Navigation"
@@ -27,15 +43,28 @@ const Header = ({ title, content, menuContent }) => (
     <HideSmall>
       <nav
         aria-label="Navigation"
-        className="flex items-center justify-between py-2 px-4"
+        className="py-2 mb-8"
       >
-        <div className="flex">
-          <Link to="/">
-            <LogoImage style={{ width: "200px" }} className="mr-8" />
+    
+      {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"
+      style={{position: "absolute", left: 0, bottom: 0, width: "100%", height: "15vh"}}>
+    <polygon fill="white" points="0,100 100,0 100,100"/>
+  </svg> */}
+
+        <Container>
+          <HeaderLinks/>
+        </Container>
+
+        <Container>
+        <Column className="justify-between">
+          <Column w={3}><Link to="/">
+            <img src={logo} className="mr-8" style={{width: "200px"}} />
           </Link>
-          <HeaderLinks />
-        </div>
-        <div className="flex flex-grow">{content !== null && content}</div>
+          </Column>
+          <Column w={6}>{content !== null && content}</Column>
+          <Column w={3}></Column>
+        </Column>
+        </Container>
       </nav>
     </HideSmall>
   </div>

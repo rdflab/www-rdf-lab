@@ -8,6 +8,7 @@
 import React from "react"
 import Breadcrumb from "./breadcrumb/breadcrumbv2"
 import Title from "./title"
+import SideLayout from "./sidelayout"
 import Layout from "./layout"
 import Container from "./container"
 import HideSmall from "./hidesmall"
@@ -26,13 +27,13 @@ const CrumbLayout = ({
       headerComponent={headerComponent}
       menuComponent={menuComponent}
     >
+      <Container>
       {crumbs.length > 0 && (
         <HideSmall>
           <Breadcrumb crumbs={crumbs} />
         </HideSmall>
       )}
-
-      <Container className="min-h-screen mt-4">
+      
         <div className="row items-center justify-between mb-4">
           {title !== "" && (
             <div className="mr-8">
@@ -43,7 +44,7 @@ const CrumbLayout = ({
           {titleComponent !== null ? titleComponent : ""}
         </div>
         {children}
-      </Container>
+        </Container>
     </Layout>
   )
 }

@@ -16,6 +16,9 @@ import Header from "./header/header"
 import Footer from "./footer/footer"
 import SEO from "./seo"
 
+
+
+
 const Layout = ({
   title,
   children,
@@ -35,8 +38,10 @@ const Layout = ({
 
   return (
     <>
-      {title !== "" && <SEO title={title} />}
 
+
+      {title !== "" && <SEO title={title} />}
+      
       <Header
         title={title}
         content={headerComponent}
@@ -46,6 +51,7 @@ const Layout = ({
       <main>{children}</main>
 
       <Footer siteTitle={data.site.siteMetadata.title}></Footer>
+
     </>
   )
 }

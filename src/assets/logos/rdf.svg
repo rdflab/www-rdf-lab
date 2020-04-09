@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -79,7 +79,7 @@
          id="path849"
          style="opacity:1;fill:#00aa88;fill-opacity:1;stroke:none;stroke-width:0.176;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00392157;paint-order:stroke markers fill" />
       <flowRoot
-         transform="matrix(0.26458333,0,0,0.26458333,23.005663,-10.48515)"
+         transform="matrix(0.26458333,0,0,0.26458333,20.101695,-10.23115)"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Libre Baskerville';-inkscape-font-specification:'Libre Baskerville';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          id="flowRoot815-9"
          xml:space="preserve"><flowRegion
@@ -92,6 +92,6 @@
              width="585.88849"
              id="rect819-7" /></flowRegion><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Avenir;-inkscape-font-specification:Avenir;fill:#ffffff"
-           id="flowPara821-4">D</flowPara></flowRoot>    </g>
+           id="flowPara821-4">rdf</flowPara></flowRoot>    </g>
   </g>
 </svg>

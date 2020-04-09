@@ -222,10 +222,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
               year
               title
             }
-            experience {
-              year
-              title
-            }
             awards {
               year
               title
@@ -450,7 +446,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
       searchData["data"][type][name] = {
         name: `${person.frontmatter.titles[0]}`,
-        to: `/research-areas/faculty-and-staff/${person.frontmatter.id}`,
+        to: `/people/${person.frontmatter.id}`,
       }
     }
   }
@@ -649,7 +645,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       }
 
       createPage({
-        path: `/research-areas/faculty-and-staff/${person.frontmatter.id}`,
+        path: `/people/${person.frontmatter.id}`,
         component: personTemplate,
         context: {
           id: person.frontmatter.id,
@@ -689,18 +685,18 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     })
   }
 
-  // Faculty and Staff page
+  // People page
 
   createPage({
-    path: "/research-areas/faculty-and-staff",
+    path: "/people",
     component: peopleTemplate,
     context: {
       crumbs: [
         ["Home", "/"],
         ["Research Areas", "/research-areas"],
-        ["Faculty and Staff", "/research-areas/faculty-and-staff"],
+        ["People", "/people"],
       ],
-      title: "Faculty and Staff",
+      title: "People",
       groupMap: groupMap,
       allPeople: allPeople,
     },
