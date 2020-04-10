@@ -266,22 +266,20 @@ a:hover {
 
 
 .head-link {
-  @apply link border-b-2 border-solid border-transparent text-gray-500 trans-ani ml-6 py-2 block;
+  @apply link border-b-2 border-solid border-transparent font-semibold uppercase text-white-60 trans-ani mx-6 py-2 block;
 }
 
 .head-link:hover {
-  @apply link-hover text-blue-400;
+  @apply link-hover text-white-90;
 }
 
 .head-link-active {
-  @apply border-blue-500 text-blue-500;
+  @apply border-white-90 text-white-90;
 }
 
 .head-link-active:hover {
-  @apply border-blue-500 text-blue-500;
+  @apply border-white-90 text-white-90;
 }
-
-
 
 .pagination-block {
   @apply row w-8 h-8 border border-solid border-gray-500 rounded justify-center items-center text-center m-2;

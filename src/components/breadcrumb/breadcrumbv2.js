@@ -27,7 +27,7 @@ const Breadcrumb = ({ crumbs }) => {
 
   return (
     <div className="mb-4">
-        <div className="row items-center">{ret}</div>
+      <div className="row items-center">{ret}</div>
     </div>
   )
 

@@ -18,222 +18,62 @@
     ["Swarnali Acharyya", 0, 0, "/research-areas/labs/swarnali-acharyya-lab"],
     ["Wei Gu", 0, 0, "/research-areas/labs/wei-gu-lab"],
     ["Zhiguo Zhang", 0, 0, "/research-areas/labs/zhiguo-zhang-lab"],
-    [
-      "Swarnali Acharyya",
-      1,
-      1,
-      "/people/swarnali-acharyya"
-    ],
+    ["Swarnali Acharyya", 1, 1, "/people/swarnali-acharyya"],
     ["Richard Baer", 1, 1, "/people/richard-baer"],
     ["Katia Basso", 1, 1, "/people/katia-basso"],
-    [
-      "Christine Chio",
-      1,
-      1,
-      "/people/christine-chio"
-    ],
-    [
-      "Riccardo Dalla-Favera",
-      1,
-      1,
-      "/people/riccardo-dalla-favera"
-    ],
-    [
-      "Adolfo Ferrando",
-      1,
-      1,
-      "/people/adolfo-ferrando"
-    ],
+    ["Christine Chio", 1, 1, "/people/christine-chio"],
+    ["Riccardo Dalla-Favera", 1, 1, "/people/riccardo-dalla-favera"],
+    ["Adolfo Ferrando", 1, 1, "/people/adolfo-ferrando"],
     ["Jean Gautier", 1, 1, "/people/jean-gautier"],
     ["Wei Gu", 1, 1, "/people/wei-gu"],
-    [
-      "Antonio Iavarone",
-      1,
-      1,
-      "/people/antonio-iavarone"
-    ],
-    [
-      "Anna Lasorella",
-      1,
-      1,
-      "/people/anna-lasorella"
-    ],
-    [
-      "Teresa Palomero",
-      1,
-      1,
-      "/people/teresa-palomero"
-    ],
-    [
-      "Laura Pasqualucci",
-      1,
-      1,
-      "/people/laura-pasqualucci"
-    ],
-    [
-      "Murty Vundavalli",
-      1,
-      1,
-      "/people/murty-vundavalli"
-    ],
+    ["Antonio Iavarone", 1, 1, "/people/antonio-iavarone"],
+    ["Anna Lasorella", 1, 1, "/people/anna-lasorella"],
+    ["Teresa Palomero", 1, 1, "/people/teresa-palomero"],
+    ["Laura Pasqualucci", 1, 1, "/people/laura-pasqualucci"],
+    ["Murty Vundavalli", 1, 1, "/people/murty-vundavalli"],
     ["Shan Zha", 1, 1, "/people/shan-zha"],
     ["Zhiguo Zhang", 1, 1, "/people/zhiguo-zhang"],
     ["Robert Albero", 1, 2, "/people/robert-albero"],
-    [
-      "Silvia Alvarez Nanez",
-      1,
-      2,
-      "/people/silvia-alvarez-nanez"
-    ],
-    [
-      "Tomas Aparicio",
-      1,
-      2,
-      "/people/tomas-aparicio"
-    ],
-    [
-      "Marina M. Ayres Pereira",
-      1,
-      2,
-      "/people/marina-m-ayres-pereira"
-    ],
+    ["Silvia Alvarez Nanez", 1, 2, "/people/silvia-alvarez-nanez"],
+    ["Tomas Aparicio", 1, 2, "/people/tomas-aparicio"],
+    ["Marina M. Ayres Pereira", 1, 2, "/people/marina-m-ayres-pereira"],
     ["Elodie Bal", 1, 2, "/people/elodie-bal"],
-    [
-      "Laura Belver-Miguel",
-      1,
-      2,
-      "/people/laura-belver-miguel"
-    ],
+    ["Laura Belver-Miguel", 1, 2, "/people/laura-belver-miguel"],
     ["Anup Biswas", 1, 2, "/people/anup-biswas"],
     ["Delin Chen", 1, 2, "/people/delin-chen"],
-    [
-      "Clarissa Corinaldesi",
-      1,
-      2,
-      "/people/clarissa-corinaldesi"
-    ],
-    [
-      "Fulvio D'Angelo",
-      1,
-      2,
-      "/people/fulvio-dangelo"
-    ],
+    ["Clarissa Corinaldesi", 1, 2, "/people/clarissa-corinaldesi"],
+    ["Fulvio D'Angelo", 1, 2, "/people/fulvio-dangelo"],
     ["Tala FNU", 1, 2, "/people/tala-fnu"],
-    [
-      "Ishdorj Ganchimeg",
-      1,
-      2,
-      "/people/ishdorj-ganchimeg"
-    ],
-    [
-      "Luciano Garofano",
-      1,
-      2,
-      "/people/luciano-garofano"
-    ],
-    [
-      "Francesca Gianni",
-      1,
-      2,
-      "/people/francesca-gianni"
-    ],
+    ["Ishdorj Ganchimeg", 1, 2, "/people/ishdorj-ganchimeg"],
+    ["Luciano Garofano", 1, 2, "/people/luciano-garofano"],
+    ["Francesca Gianni", 1, 2, "/people/francesca-gianni"],
     ["Antony Holmes", 1, 2, "/people/antony-holmes"],
     ["Xu Hua", 1, 2, "/people/xu-hua"],
     ["Aram Ko", 1, 2, "/people/aram-ko"],
     ["Ning Kon", 1, 2, "/people/ning-kon"],
     ["Demis Menolfi", 1, 2, "/people/demis-menolfi"],
-    [
-      "Stefanie Meyer",
-      1,
-      2,
-      "/people/stefanie-meyer"
-    ],
-    [
-      "Maja Milanovic",
-      1,
-      2,
-      "/people/maja-milanovic"
-    ],
+    ["Stefanie Meyer", 1, 2, "/people/stefanie-meyer"],
+    ["Maja Milanovic", 1, 2, "/people/maja-milanovic"],
     ["Yan Mo", 1, 2, "/people/yan-mo"],
-    [
-      "Lucia Morgado-Palacin",
-      1,
-      2,
-      "/people/lucia-morgado-palacin"
-    ],
+    ["Lucia Morgado-Palacin", 1, 2, "/people/lucia-morgado-palacin"],
     ["Nanfang Peng", 1, 2, "/people/nanfang-peng"],
-    [
-      "Pablo Perez-Duran",
-      1,
-      2,
-      "/people/pablo-perez-duran"
-    ],
-    [
-      "Marissa Rashkovan",
-      1,
-      2,
-      "/people/marissa-rashkovan"
-    ],
-    [
-      "Clara Reglero Gomez",
-      1,
-      2,
-      "/people/clara-reglero-gomez"
-    ],
-    [
-      "Jose Rodriguez-Cortes",
-      1,
-      2,
-      "/people/jose-rodriguez-cortes"
-    ],
-    [
-      "Claudio Scuoppo",
-      1,
-      2,
-      "/people/claudio-scuoppo"
-    ],
-    [
-      "Albert Serra-Cardona",
-      1,
-      2,
-      "/people/albert-serra-cardona"
-    ],
+    ["Pablo Perez-Duran", 1, 2, "/people/pablo-perez-duran"],
+    ["Marissa Rashkovan", 1, 2, "/people/marissa-rashkovan"],
+    ["Clara Reglero Gomez", 1, 2, "/people/clara-reglero-gomez"],
+    ["Jose Rodriguez-Cortes", 1, 2, "/people/jose-rodriguez-cortes"],
+    ["Claudio Scuoppo", 1, 2, "/people/claudio-scuoppo"],
+    ["Albert Serra-Cardona", 1, 2, "/people/albert-serra-cardona"],
     ["Rushdi Shakri", 1, 2, "/people/rushdi-shakri"],
-    [
-      "Zhengping Shao",
-      1,
-      2,
-      "/people/zhengping-shao"
-    ],
+    ["Zhengping Shao", 1, 2, "/people/zhengping-shao"],
     ["Peiguo Shi", 1, 2, "/people/peiguo-shi"],
-    [
-      "Gaganpreet Sidhu",
-      1,
-      2,
-      "/people/gaganpreet-sidhu"
-    ],
+    ["Gaganpreet Sidhu", 1, 2, "/people/gaganpreet-sidhu"],
     ["Zhenyi Su", 1, 2, "/people/zhenyi-su"],
-    [
-      "Luca Szalontay",
-      1,
-      2,
-      "/people/luca-szalontay"
-    ],
+    ["Luca Szalontay", 1, 2, "/people/luca-szalontay"],
     ["Yu Tao", 1, 2, "/people/yu-tao"],
     ["Donglai Wang", 1, 2, "/people/donglai-wang"],
     ["Xingwu Wang", 1, 2, "/people/xingwu-wang"],
-    [
-      "Cyrstal Waters",
-      1,
-      2,
-      "/people/cyrstal-waters"
-    ],
-    [
-      "Agnieszka Wendorff",
-      1,
-      2,
-      "/people/agnieszka-wendorff"
-    ],
+    ["Cyrstal Waters", 1, 2, "/people/cyrstal-waters"],
+    ["Agnieszka Wendorff", 1, 2, "/people/agnieszka-wendorff"],
     ["Xiaowei Xu", 1, 2, "/people/xiaowei-xu"],
     ["JIngjie Yi", 1, 2, "/people/jingjie-yi"],
     ["Chuanjiang Yu", 1, 2, "/people/chuanjiang-yu"],
@@ -244,46 +84,16 @@
     ["Xiangyi Ke", 1, 3, "/people/xiangyi-ke"],
     ["Sean Kim", 1, 3, "/people/sean-kim"],
     ["Andrew Liebau", 1, 3, "/people/andrew-liebau"],
-    [
-      "Christine Moon",
-      1,
-      3,
-      "/people/christine-moon"
-    ],
-    [
-      "Aidan Stuart Quinn",
-      1,
-      3,
-      "/people/aidan-stuart-quinn"
-    ],
-    [
-      "Benjamin Schrank",
-      1,
-      3,
-      "/people/benjamin-schrank"
-    ],
-    [
-      "Xiobin (Summer) Wang",
-      1,
-      3,
-      "/people/xiobin-summer-wang"
-    ],
+    ["Christine Moon", 1, 3, "/people/christine-moon"],
+    ["Aidan Stuart Quinn", 1, 3, "/people/aidan-stuart-quinn"],
+    ["Benjamin Schrank", 1, 3, "/people/benjamin-schrank"],
+    ["Xiobin (Summer) Wang", 1, 3, "/people/xiobin-summer-wang"],
     ["Tim Zhong", 1, 3, "/people/tim-zhong"],
     ["Karina Chan", 1, 4, "/people/karina-chan"],
     ["Liang Chang", 1, 4, "/people/liang-chang"],
-    [
-      "Courtney Coker",
-      1,
-      4,
-      "/people/courtney-coker"
-    ],
+    ["Courtney Coker", 1, 4, "/people/courtney-coker"],
     ["Anisha Cooke", 1, 4, "/people/anisha-cooke"],
-    [
-      "Thomas Gunning",
-      1,
-      4,
-      "/people/thomas-gunning"
-    ],
+    ["Thomas Gunning", 1, 4, "/people/thomas-gunning"],
     ["Devya Gurung", 1, 4, "/people/devya-gurung"],
     ["Brian Lee", 1, 4, "/people/brian-lee"],
     ["Huan Li", 1, 4, "/people/huan-li"],

@@ -4,11 +4,9 @@ import IconLink from "./iconlink"
 import BlueLinkExt from "./bluelinkext"
 
 const EmailLink = ({ to }) => (
-  <IconLink
-    icon={<FaEnvelope className="text-gray-600" size={20} />}
-  >
+  <IconLink icon={<FaEnvelope className="text-gray-600" size={20} />}>
     <BlueLinkExt to={`mailto:${to}`}>{to}</BlueLinkExt>
-    </IconLink>
+  </IconLink>
 )
 
 export default EmailLink

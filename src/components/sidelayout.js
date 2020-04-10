@@ -12,7 +12,12 @@ import Layout from "./layout"
 import Container from "./container"
 import HideSmall from "./hidesmall"
 import Column from "./column"
-import { FaBookOpen, FaUserFriends, FaNewspaper, FaLayerGroup } from "react-icons/fa"
+import {
+  FaBookOpen,
+  FaUserFriends,
+  FaNewspaper,
+  FaLayerGroup,
+} from "react-icons/fa"
 import TextLink from "./textlink"
 import SideLink from "./sidelink"
 
@@ -33,29 +38,33 @@ const SideLayout = ({
         <Column>
           <Column w={2} className="mt-4">
             <div className="w-full">
-            <SideLink to={'/research-areas'} icon={<FaLayerGroup size={20}/>}>
+              <SideLink
+                to={"/research-areas"}
+                icon={<FaLayerGroup size={20} />}
+              >
                 Research Areas
               </SideLink>
-            <SideLink to={'/people'} icon={<FaUserFriends size={20}/>}>
+              <SideLink to={"/people"} icon={<FaUserFriends size={20} />}>
                 People
               </SideLink>
 
-              <SideLink to={'/research-areas/publications'} icon={<FaBookOpen size={20}/>}>
+              <SideLink
+                to={"/research-areas/publications"}
+                icon={<FaBookOpen size={20} />}
+              >
                 Publications
               </SideLink>
 
-              <SideLink to={'/news'} icon={<FaNewspaper size={20}/>}>
+              <SideLink to={"/news"} icon={<FaNewspaper size={20} />}>
                 News
               </SideLink>
-
             </div>
-
           </Column>
           <Column w={10} className="min-h-screen p-8 pr-16">
-          <div className="w-full">{children}</div>
+            <div className="w-full">{children}</div>
           </Column>
         </Column>
-        </Container>
+      </Container>
     </Layout>
   )
 }

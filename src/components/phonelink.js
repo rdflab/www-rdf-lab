@@ -4,9 +4,9 @@ import IconLink from "./iconlink"
 import BlueLinkExt from "./bluelinkext"
 
 const PhoneLink = ({ numbers }) => (
-  <IconLink
-    icon={<FaPhone className="text-gray-600" size={20} />}
-  ><BlueLinkExt to={`tel:${numbers[0]}`}>{numbers[0]}</BlueLinkExt></IconLink>
+  <IconLink icon={<FaPhone className="text-gray-600" size={20} />}>
+    <BlueLinkExt to={`tel:${numbers[0]}`}>{numbers[0]}</BlueLinkExt>
+  </IconLink>
 )
 
 export default PhoneLink

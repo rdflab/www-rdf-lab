@@ -1,12 +1,8 @@
 [
   {
     "title": "Non-transcriptional control of DNA replication by c-myc",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "D",
@@ -60,20 +56,14 @@
     "issue": "7152",
     "pages": "445-51",
     "pubmed": "17597761",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "A Signaling Pathway Mediating Downregulation of BCL6 in Germinal Center B Cells Is Blocked by BCL6 Gene Alterations in B Cell Lymphoma",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "M",
@@ -117,20 +107,14 @@
     "issue": "",
     "pages": "",
     "pubmed": "17785208",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Genotoxic stress regulates expression of the BCL6 proto-oncogene in germinal-center B cells",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "RT",
@@ -164,20 +148,14 @@
     "issue": "",
     "pages": "",
     "pubmed": "17828269",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "AID is required for germinal center derived lymphomagenesis",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "L",
@@ -226,20 +204,14 @@
     "issue": "1",
     "pages": "108-12",
     "pubmed": "18066064",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Jr, Chen CZ, Califano A, Dalla-Favera R",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "K",
@@ -288,20 +260,14 @@
     "issue": "",
     "pages": "",
     "pubmed": "",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "and Pasqualucci, L",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "M",
@@ -375,20 +341,14 @@
     "issue": "",
     "pages": "717-21",
     "pubmed": "32120278",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "The DLEU2/miR-15a/16-1 cluster controls B-cell proliferation and its deletion leads to chronic lymphocytic leukemia",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "U",
@@ -452,20 +412,14 @@
     "issue": "1",
     "pages": "28-40",
     "pubmed": "20060366",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "BLIMP1 is a tumor suppressor gene frequently disrupted in activated B-cell like diffuse large B cell lymphoma",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "J",
@@ -529,20 +483,14 @@
     "issue": "",
     "pages": "",
     "pubmed": "21156281",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Inactivating mutations of acetyltransferase genes in B-cell lymphoma",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "L",
@@ -641,20 +589,14 @@
     "issue": "",
     "pages": "",
     "pubmed": "21390126",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Trifonov V, Fabbri G, Ma J, Rossi D, Chiarenza A, Wells VA, Grunn A, Messina M, Elliot O, Chan J, Bhagat G, Chadburn A, Gaidano G, Mullighan, C",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "L",
@@ -668,21 +610,14 @@
     "issue": "",
     "pages": "",
     "pubmed": "",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Combined Genetic Inactivation of Beta2-Microglobulin and CD58 Reveals Frequent Escape from Immune Recognition in Diffuse Large B-cell Lymphoma",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "antony-holmes",
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["antony-holmes", "riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "M",
@@ -736,20 +671,14 @@
     "issue": "",
     "pages": "",
     "pubmed": "22137796",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "The proto-oncogene MYC is required for selection in the germinal center and cyclic reentry",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "D",
@@ -793,21 +722,14 @@
     "issue": "",
     "pages": "",
     "pubmed": "23001145",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "tRNA-derived microRNA modulates proliferation and the DNA damage response and is down-regulated in B cell lymphoma",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "antony-holmes",
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["antony-holmes", "riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "RL",
@@ -851,20 +773,14 @@
     "issue": "4",
     "pages": "1404-9",
     "pubmed": "23297232",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "MEF2B mutations lead to deregulated expression of the BCL6 oncogene in diffuse large B cell lymphoma",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "CY",
@@ -923,21 +839,14 @@
     "issue": "",
     "pages": "",
     "pubmed": "23974956",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Genetic lesions associated with chronic lymphocytic leukemia transformation to Richter syndrome",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "antony-holmes",
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["antony-holmes", "riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "G",
@@ -991,21 +900,14 @@
     "issue": "",
     "pages": "",
     "pubmed": "24127483",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Genetics of Follicular Lymphoma Transformation",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "antony-holmes",
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["antony-holmes", "riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "L",
@@ -1109,20 +1011,14 @@
     "issue": "1",
     "pages": "130-40",
     "pubmed": "24388756",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Genome-wide Mapping and Characterization of Notch-Regulated Long Noncoding RNAs in Acute Leukemia",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "T",
@@ -1166,20 +1062,14 @@
     "issue": "3",
     "pages": "593-606",
     "pubmed": "25083870",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Germinal Centres and B cell lymphomagenesis",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "K",
@@ -1198,20 +1088,14 @@
     "issue": "3",
     "pages": "172-84",
     "pubmed": "25712152",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "The molecular pathogenesis of chronic lymphocytic leukaemia",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "G",
@@ -1230,20 +1114,14 @@
     "issue": "3",
     "pages": "145-62",
     "pubmed": "31364161",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "FBXO11 inactivation leads to abnormal germinal-center formation and lymphoproliferative diseases",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "C",
@@ -1312,21 +1190,14 @@
     "issue": "",
     "pages": "",
     "pubmed": "",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Common nonmutational NOTCH1 activation in chronic lymphocytic leukemia",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "antony-holmes",
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["antony-holmes", "riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "G",
@@ -1400,20 +1271,14 @@
     "issue": "",
     "pages": "",
     "pubmed": "28314854",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Molecular genetics of aggressive B-cell lymphoma",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "R",
@@ -1427,20 +1292,14 @@
     "issue": "",
     "pages": "76-79",
     "pubmed": "28591417",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Genetics of diffuse large B-cell lymphoma",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "L",
@@ -1459,20 +1318,14 @@
     "issue": "21",
     "pages": "2307-2319",
     "pubmed": "30070100",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Chronic lymphocytic leaukaemia: from genetics to treatment",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "F",
@@ -1491,21 +1344,14 @@
     "issue": "",
     "pages": "",
     "pubmed": "31278397",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Repurposing dasatinib for diffuse large B cell lymphoma",
-    "groups": [
-      "riccardo-dalla-favera-lab",
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab", "riccardo-dalla-favera-lab"],
+    "people": ["riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "C",
@@ -1564,21 +1410,14 @@
     "issue": "",
     "pages": "",
     "pubmed": "31383760",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   },
   {
     "title": "Unique and shared epigenetic programs of the CREBBP and EP300 Acetyltransferases in germinal center B cells reveal targetable dependencies in lymphoma",
-    "groups": [
-      "riccardo-dalla-favera-lab"
-    ],
-    "people": [
-      "antony-holmes",
-      "riccardo-dalla-favera"
-    ],
+    "groups": ["riccardo-dalla-favera-lab"],
+    "people": ["antony-holmes", "riccardo-dalla-favera"],
     "authors": [
       {
         "initials": "SN",
@@ -1657,9 +1496,7 @@
     "issue": "",
     "pages": "",
     "pubmed": "31519498",
-    "tags": [
-      "Article"
-    ],
+    "tags": ["Article"],
     "abstract": "",
     "url": ""
   }

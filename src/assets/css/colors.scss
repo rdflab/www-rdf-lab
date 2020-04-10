@@ -64,8 +64,24 @@ $columbia-blue-90-color: rgba($columbia-blue-color, 0.9);
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.bg-white-80 {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.bg-white-90 {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 .border-white-20 {
   border-color: rgba(255, 255, 255, 0.2);
+}
+
+.border-white-60 {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.border-white-90 {
+  border-color: rgba(255, 255, 255, 0.9);
 }
 
 .text-blue-columbia {
@@ -76,8 +92,16 @@ $columbia-blue-90-color: rgba($columbia-blue-color, 0.9);
   color :rgba(255, 255, 255, 0.5);
 }
 
+.text-white-60 {
+  color :rgba(255, 255, 255, 0.6);
+}
+
 .text-white-80 {
   color :rgba(255, 255, 255, 0.8);
+}
+
+.text-white-90 {
+  color :rgba(255, 255, 255, 0.9);
 }
 
 .text {

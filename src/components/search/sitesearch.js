@@ -28,12 +28,12 @@ const SiteSearchResult = ({ text, to, link }) => {
   return (
     <Link to={to} className="p-0 m-0">
       <Column className="px-4 py-2 cursor-pointer hover:bg-gray-200 trans-ani">
-        <Column w="7" className="mr-4">
-          <div>{text}</div>
-        </Column>
+        {/* <Column w="7" className="mr-4"> */}
+        <div>{text}</div>
+        {/* </Column>
         <Column w="5">
           <div>{link}</div>
-        </Column>
+        </Column> */}
       </Column>
     </Link>
   )
@@ -64,7 +64,7 @@ const SiteSearchMenuPane = ({ showMenu, handleClickEvent }) => {
 const SiteSearchMenu = ({ showMenu, children }) => {
   return (
     <div
-      className={`absolute z-50 bg-white p-0 m-0 outline-none shadow-md rounded-md overflow-hidden border border-solid border-gray-200 w-full ${
+      className={`absolute z-50 bg-white p-0 mt-2 outline-none shadow-md rounded-md overflow-hidden border border-solid border-gray-200 w-full ${
         showMenu ? "block" : "hidden"
       }`}
     >
