@@ -27,24 +27,15 @@ const CrumbLayout = ({
       headerComponent={headerComponent}
       menuComponent={menuComponent}
     >
-      <Container className="min-h-screen">
+      <div className=" min-h-screen">
         {crumbs.length > 0 && (
           <HideSmall>
             <Breadcrumb crumbs={crumbs} />
           </HideSmall>
         )}
 
-        <div className="row items-center justify-between mb-4">
-          {title !== "" && (
-            <div className="mr-8">
-              <Title>{title}</Title>
-            </div>
-          )}
-
-          {titleComponent !== null ? titleComponent : ""}
-        </div>
         {children}
-      </Container>
+      </div>
     </Layout>
   )
 }

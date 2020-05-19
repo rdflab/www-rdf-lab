@@ -1,28 +1,26 @@
 import React from "react"
-import HICCCImage from "../hicccimage"
 import FooterLinks from "./footerlinks"
 import Container from "../container"
 import Column from "../column"
+import cuimcsvg from "../../assets/svg/cuimc-white.svg"
 
 const Footer = ({ siteTitle }) => {
   return (
     <footer className="text-white text-sm mt-8 py-8 bg-gray-600">
       <Container>
-        <div className="flex items-center justify-between">
-          <div className="flex items-center">
-            <div className="flex mr-8">
-              &copy; {new Date().getFullYear()} {siteTitle}
-            </div>
-            <div className="flex">
-              <FooterLinks />
-            </div>
+        {/* <div className="row items-center mb-4">
+            <FooterLinks />
+         </div> */}
+        <div className="row items-center mb-4">
+          <div>
+            &copy; {new Date().getFullYear()} {siteTitle}
           </div>
+        </div>
 
-          <div className="flex items-center">
-            <a href="https://cumc.columbia.edu">
-              <HICCCImage style={{ width: "400px" }} />
-            </a>
-          </div>
+        <div className="row items-center mb-4">
+          <a href="https://cumc.columbia.edu">
+            <img src={cuimcsvg} className="h-10" alt="CUIMC Logo" />
+          </a>
         </div>
       </Container>
     </footer>

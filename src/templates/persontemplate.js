@@ -170,8 +170,6 @@ const PersonTemplate = ({ pageContext, data }) => {
 
             {cv !== null && cv.training.length > 0 && <Training cv={cv} />}
 
-            {cv !== null && cv.experience.length > 0 && <Experience cv={cv} />}
-
             {cv !== null && cv.awards.length > 0 && <Awards cv={cv} />}
 
             {publications.length > 0 && (

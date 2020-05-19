@@ -6,6 +6,16 @@ import { FaChevronRight } from "react-icons/fa"
 const Breadcrumb = ({ crumbs }) => {
   const ret = []
 
+  ret.push(
+    <BlueLink key={`link`} to="/">
+      RDF Lab
+    </BlueLink>
+  )
+
+  ret.push(
+    <FaChevronRight key={`arrow`} className="text-blue-columbia-50 mx-2" />
+  )
+
   for (let i = 0; i < crumbs.length; ++i) {
     const crumb = crumbs[i]
 
@@ -26,7 +36,7 @@ const Breadcrumb = ({ crumbs }) => {
   }
 
   return (
-    <div className="mb-4">
+    <div className="p-4 shadow-md mb-4">
       <div className="row items-center">{ret}</div>
     </div>
   )

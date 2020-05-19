@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 //import "../assets/css/global.scss"
 import "../assets/css/global.scss"
@@ -35,15 +36,22 @@ const Layout = ({
 
   return (
     <>
+      <Helmet>
+        <link
+          href="https://fonts.googleapis.com/css?family=Orbitron:600&display=swap"
+          rel="stylesheet"
+        />
+      </Helmet>
+
       {title !== "" && <SEO title={title} />}
 
-      <Header
+      {/* <Header
         title={title}
         content={headerComponent}
         menuContent={menuComponent}
-      />
+      /> */}
 
-      <main className="mt-24">{children}</main>
+      <main>{children}</main>
 
       <Footer siteTitle={data.site.siteMetadata.title}></Footer>
     </>

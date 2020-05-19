@@ -532,87 +532,87 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       labExcerptHtml = markdown.excerpt
     }
 
-    createPage({
-      path: `/research-areas/labs/${group.frontmatter.id}`,
-      component: labTemplate,
-      context: {
-        group: group,
-        labPeople: labPeople,
-        labPublications: labPublications,
-        labNews: labNews,
-        labExcerptHtml: labExcerptHtml,
-        labHtml: labHtml,
-      },
-    })
+    // createPage({
+    //   path: `/research-areas/labs/${group.frontmatter.id}`,
+    //   component: labTemplate,
+    //   context: {
+    //     group: group,
+    //     labPeople: labPeople,
+    //     labPublications: labPublications,
+    //     labNews: labNews,
+    //     labExcerptHtml: labExcerptHtml,
+    //     labHtml: labHtml,
+    //   },
+    // })
 
     //
     // Overview
     //
 
-    createPage({
-      path: `/research-areas/labs/${group.frontmatter.id}/overview`,
-      component: labOverviewTemplate,
-      context: {
-        group: group,
-        labPeople: labPeople,
-        labPublications: labPublications,
-        labHtml: labHtml,
-      },
-    })
+    // createPage({
+    //   path: `/research-areas/labs/${group.frontmatter.id}/overview`,
+    //   component: labOverviewTemplate,
+    //   context: {
+    //     group: group,
+    //     labPeople: labPeople,
+    //     labPublications: labPublications,
+    //     labHtml: labHtml,
+    //   },
+    // })
 
     //
     // Members
     //
 
-    createPage({
-      path: `${path}/members`,
-      component: peopleTemplate,
-      context: {
-        title: `The ${group.frontmatter.name} Lab Members`,
-        crumbs: [
-          ["Home", "/"],
-          ["Research Areas", "/research-areas"],
-          ["Labs", "/research-areas/labs"],
-          [
-            group.frontmatter.name,
-            `/research-areas/labs/${group.frontmatter.id}`,
-          ],
-          ["Members", `/research-areas/labs/${group.frontmatter.id}/members`],
-        ],
-        groupMap: groupMap,
-        allPeople: labPeople,
-      },
-    })
+    // createPage({
+    //   path: `${path}/members`,
+    //   component: peopleTemplate,
+    //   context: {
+    //     title: `The ${group.frontmatter.name} Lab Members`,
+    //     crumbs: [
+    //       ["Home", "/"],
+    //       ["Research Areas", "/research-areas"],
+    //       ["Labs", "/research-areas/labs"],
+    //       [
+    //         group.frontmatter.name,
+    //         `/research-areas/labs/${group.frontmatter.id}`,
+    //       ],
+    //       ["Members", `/research-areas/labs/${group.frontmatter.id}/members`],
+    //     ],
+    //     groupMap: groupMap,
+    //     allPeople: labPeople,
+    //   },
+    // })
 
     //
     // Lab publications
     //
 
-    createPage({
-      path: `${path}/publications`,
-      component: publicationsTemplate,
-      context: {
-        title: `${group.frontmatter.name} Lab Publications`,
-        crumbs: [
-          ["Home", "/"],
-          ["Research Areas", "/research-areas"],
-          ["Labs", "/research-areas/labs"],
-          [
-            group.frontmatter.name,
-            `/research-areas/labs/${group.frontmatter.id}`,
-          ],
-          [
-            "Publications",
-            `/research-areas/labs/${group.frontmatter.id}/publications`,
-          ],
-        ],
-        selectedTab: "",
-        allPublications: labPublications,
-        showSearch: false,
-        showYears: true,
-        showLabLink: false,
-      },
-    })
+    // createPage({
+    //   path: `${path}/publications`,
+    //   component: publicationsTemplate,
+    //   context: {
+    //     title: `${group.frontmatter.name} Lab Publications`,
+    //     crumbs: [
+    //       ["Home", "/"],
+    //       ["Research Areas", "/research-areas"],
+    //       ["Labs", "/research-areas/labs"],
+    //       [
+    //         group.frontmatter.name,
+    //         `/research-areas/labs/${group.frontmatter.id}`,
+    //       ],
+    //       [
+    //         "Publications",
+    //         `/research-areas/labs/${group.frontmatter.id}/publications`,
+    //       ],
+    //     ],
+    //     selectedTab: "",
+    //     allPublications: labPublications,
+    //     showSearch: false,
+    //     showYears: true,
+    //     showLabLink: false,
+    //   },
+    // })
 
     //
     // For each person
@@ -644,21 +644,21 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         }
       }
 
-      createPage({
-        path: `/people/${person.frontmatter.id}`,
-        component: personTemplate,
-        context: {
-          id: person.frontmatter.id,
-          person: person,
-          groups: groups,
-          labPeople: labPeople,
-          publications: personPublications,
-          cv:
-            person.frontmatter.id in cvMap
-              ? cvMap[person.frontmatter.id]
-              : null,
-        },
-      })
+      // createPage({
+      //   path: `/people/${person.frontmatter.id}`,
+      //   component: personTemplate,
+      //   context: {
+      //     id: person.frontmatter.id,
+      //     person: person,
+      //     groups: groups,
+      //     labPeople: labPeople,
+      //     publications: personPublications,
+      //     cv:
+      //       person.frontmatter.id in cvMap
+      //         ? cvMap[person.frontmatter.id]
+      //         : null,
+      //   },
+      // })
     }
   }
 
@@ -666,86 +666,86 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // News pages
   //
 
-  createPage({
-    path: `/news`,
-    component: newsTemplate,
-    context: {
-      allNews: allNews,
-    },
-  })
+  // createPage({
+  //   path: `/news`,
+  //   component: newsTemplate,
+  //   context: {
+  //     allNews: allNews,
+  //   },
+  // })
 
-  for (let item of allNews) {
-    createPage({
-      path: item.frontmatter.path,
-      component: newsItemTemplate,
-      context: {
-        item: item,
-        allNews: allNews,
-      },
-    })
-  }
+  // for (let item of allNews) {
+  //   createPage({
+  //     path: item.frontmatter.path,
+  //     component: newsItemTemplate,
+  //     context: {
+  //       item: item,
+  //       allNews: allNews,
+  //     },
+  //   })
+  // }
 
   // People page
 
-  createPage({
-    path: "/people",
-    component: peopleTemplate,
-    context: {
-      crumbs: [
-        ["Home", "/"],
-        ["Research Areas", "/research-areas"],
-        ["People", "/people"],
-      ],
-      title: "People",
-      groupMap: groupMap,
-      allPeople: allPeople,
-    },
-  })
+  // createPage({
+  //   path: "/people",
+  //   component: peopleTemplate,
+  //   context: {
+  //     crumbs: [
+  //       ["Home", "/"],
+  //       ["Research Areas", "/research-areas"],
+  //       ["People", "/people"],
+  //     ],
+  //     title: "People",
+  //     groupMap: groupMap,
+  //     allPeople: allPeople,
+  //   },
+  // })
 
   // Pubs page
 
-  createPage({
-    path: "/research-areas/publications",
-    component: publicationsTemplate,
-    context: {
-      title: "Publications",
-      crumbs: [
-        ["Home", "/"],
-        ["Research Areas", "/research-areas"],
-        ["Publications", "/research-areas/publications"],
-      ],
-      selectedTab: "Publications",
-      allPublications: allPublications,
-      index: "/publications.index.json",
-      showSearch: true,
-      showYears: true,
-      showLabLink: false,
-    },
-  })
+  // createPage({
+  //   path: "/research-areas/publications",
+  //   component: publicationsTemplate,
+  //   context: {
+  //     title: "Publications",
+  //     crumbs: [
+  //       ["Home", "/"],
+  //       ["Research Areas", "/research-areas"],
+  //       ["Publications", "/research-areas/publications"],
+  //     ],
+  //     selectedTab: "Publications",
+  //     allPublications: allPublications,
+  //     index: "/publications.index.json",
+  //     showSearch: true,
+  //     showYears: true,
+  //     showLabLink: false,
+  //   },
+  // })
 
   //
   // Research areas
   //
 
-  createPage({
-    path: "/research-areas",
-    component: researchAreasTemplate,
-    context: {
-      allResearchAreas: allResearchAreas,
-    },
-  })
+  // createPage({
+  //   path: "/research-areas",
+  //   component: researchAreasTemplate,
+  //   context: {
+  //     allResearchAreas: allResearchAreas,
+  //   },
+  // })
 
-  for (let researchArea of allResearchAreas) {
-    createPage({
-      path: `/research-areas/${researchArea.id}`,
-      component: researchAreaTemplate,
-      context: {
-        groupMap: groupMap,
-        allPeople: allPeople,
-        researchArea: researchArea,
-      },
-    })
-  }
+  // for (let researchArea of allResearchAreas) {
+  //   createPage({
+  //     path: `/research-areas/${researchArea.id}`,
+  //     component: researchAreaTemplate,
+  //     context: {
+  //       groupMap: groupMap,
+  //       allPeople: allPeople,
+  //       researchArea: researchArea,
+  //     },
+  //   })
+  // }
 
   const siteData = {}
 

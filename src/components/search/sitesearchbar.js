@@ -20,13 +20,20 @@ const SiteSearchBar = ({
 
   return (
     <div
-      className={`row z-40 text-gray-900 px-4 py-2 rounded-md items-center justify-between trans-ani ${
-        hover || selected ? "bg-white" : ""
+      className={`row z-40 text-gray-900 px-4 py-2 rounded-md border border-solid border-gray-200 items-center justify-between trans-ani ${
+        hover || selected ? "bg-white border-gray-300" : "bg-gray-200"
       } ${className}`}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
-      <div className="flex items-center w-full">
+      <div className="flex">
+        <FaSearch
+          className={`${
+            hover ? "text-blue-400" : "text-gray-400"
+          } trans-ani mr-2`}
+        />
+      </div>
+      <div className="flex w-full">
         <input
           type="text"
           aria-label="Search"
@@ -34,13 +41,6 @@ const SiteSearchBar = ({
           value={text}
           onChange={handleInputChange}
           className="bg-transparent w-full border-none outline-none"
-        />
-      </div>
-      <div className="flex items-center">
-        <FaSearch
-          className={`${
-            hover ? "text-blue-400" : "text-white-50"
-          } trans-ani ml-2`}
         />
       </div>
     </div>

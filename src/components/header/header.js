@@ -11,67 +11,57 @@ import SiteSearch from "../search/sitesearch"
 import logo from "../../assets/svg/rdf-logo.svg"
 
 import styled from "styled-components"
-import background from "../../assets/images/benchwork.jpg"
 
 const Nav = styled.nav`
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 30vh;
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.98);
+`
+
+const IconSpan = styled.span`
+  font-family: Orbitron;
+  font-weight: 600;
+  font-size: 1.4rem;
 `
 
 const Header = ({ title, content, menuContent }) => (
   <div>
     <HideSmall show={true}>
-      <nav
-        aria-label="Navigation"
-        className="row text-white p-3 bg-blue-columbia-80"
-      >
+      <Nav aria-label="Navigation" className="row text-white p-3">
         <SlideMenu title={title} />
         <Link to="/">
           <ColumbiaICGWhiteImage style={{ width: `300px` }} />
         </Link>
-      </nav>
+      </Nav>
     </HideSmall>
 
     <HideSmall>
-      <nav
+      <Nav
         aria-label="Navigation"
-        className="fixed top-0 left-0 w-full z-40 bg-gray-800 py-3 mb-8"
+        className="fixed top-0 left-0 w-full z-40 border-b border-solid border-gray-300 py-2"
       >
-        {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"
-      style={{position: "absolute", left: 0, bottom: 0, width: "100%", height: "15vh"}}>
-    <polygon fill="white" points="0,100 100,0 100,100"/>
-  </svg> */}
-
-        {/* <Container>
-          <Column className="justify-between border-b border-solid border-gray-200 mb-4">
-          <Link to="/">
-            <img src={logo} className="mr-8" style={{ width: "200px" }} />
-          </Link>
-            <HeaderLinks />
-
-            <SiteSearch />
-
-          </Column>
-        </Container> */}
-
         <Container className="">
-          <Column className="justify-between">
-            <Column w={3}>
+          <Column className="justify-between items-center">
+            <Column className="w-3/10 items-center">
+              {/* <div> */}
               <Link to="/">
-                <img src={logo} className="mr-8" style={{ width: "200px" }} />
+                <img
+                  className="inline mr-3"
+                  src={logo}
+                  style={{ width: "280px" }}
+                />
               </Link>
+              {/* </div> */}
+
+              {/* <div>
+              <Link to="/">
+                <IconSpan className="text-blue-500">dalla-favera lab</IconSpan>
+              </Link>
+              </div> */}
             </Column>
-            <Column w={6} className="justify-center">
-              <HeaderLinks />
-            </Column>
-            <Column w={3} className="justify-end">
+            <Column className="w-4/10 justify-center">
               <SiteSearch />
+            </Column>
+            <Column className="w-3/10 justify-end">
+              <HeaderLinks />
             </Column>
           </Column>
         </Container>
@@ -80,7 +70,7 @@ const Header = ({ title, content, menuContent }) => (
             <HeaderLinks />
           </Column>
         </Container> */}
-      </nav>
+      </Nav>
     </HideSmall>
   </div>
 )
