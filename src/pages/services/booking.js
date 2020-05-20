@@ -4,10 +4,7 @@ import SiteSearch from "../../components/search/sitesearch"
 
 const Booking = () => (
   <CrumbLayout
-    crumbs={[
-      ["Services", "/services"],
-      ["Booking Service", "/services/booking"],
-    ]}
+    crumbs={[["Booking Service", "/services/booking"]]}
     title="RDF Lab Booking Service"
     headerComponent={<SiteSearch />}
   >

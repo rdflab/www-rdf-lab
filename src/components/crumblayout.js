@@ -29,7 +29,7 @@ const CrumbLayout = ({
     >
       <div className=" min-h-screen">
         {crumbs.length > 0 && (
-          <HideSmall>
+          <HideSmall className=" shadow-md mb-4">
             <Breadcrumb crumbs={crumbs} />
           </HideSmall>
         )}

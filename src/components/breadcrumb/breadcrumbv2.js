@@ -36,7 +36,7 @@ const Breadcrumb = ({ crumbs }) => {
   }
 
   return (
-    <div className="p-4 shadow-md mb-4">
+    <div className="py-4 px-8">
       <div className="row items-center">{ret}</div>
     </div>
   )
