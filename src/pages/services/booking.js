@@ -15,7 +15,7 @@ const Booking = () => (
       >
         <iframe
           align="center"
-          src="https://d1u9v29osof142.cloudfront.net"
+          src="https://booking.rdf-lab.org"
           frameborder="0"
           allowfullscreen=""
           width="100%"
