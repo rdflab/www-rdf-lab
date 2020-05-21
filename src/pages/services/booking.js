@@ -11,7 +11,7 @@ const Booking = () => (
     <div className="w-full h-full min-h-full overflow-hidden">
       <div
         className="iframe-container w-full h-full min-h-full"
-        style={{ minHeight: "250rem" }}
+        style={{ minHeight: "100rem" }}
       >
         <iframe
           align="center"
